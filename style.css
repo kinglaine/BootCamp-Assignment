@@ -1,0 +1,68 @@
+body{
+    border: 2px solid blue;
+    padding: 10px;
+}
+#Menu{
+    text-align: center;
+    list-style-type: none;
+}
+#searchbar, ::placeholder{
+    color: black;
+}
+#Table, th, td{
+    text-align: center;
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: yellow;
+}
+.row2, td{
+    background-color: pink;
+}
+.data1{
+    font-weight: bold;
+}
+#Paragraphlist{
+border: 2px solid red;
+margin-bottom: 10px;
+}
+#button{
+   margin-left: -1px;
+}
+
+textarea{
+    width: 600px;
+    height: 100px;
+}
+#assignment1{
+    border: 2px solid black;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+#divgroup{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.div1, .div2, .div3{
+    width: 270px;
+    height: fit-content;
+    border-radius: 2%;
+    border: 3px solid orange;
+    padding: 1px;
+}
+.image1, .image2, .image3{
+    width: 270px;
+    height: 200px;
+
+}
+.list1, .list2, .list3{
+    text-align: center;
+    padding-left: 0px;
+    list-style-type: none;
+}
+#divgroup li{
+    padding-bottom:10px ;
+}
